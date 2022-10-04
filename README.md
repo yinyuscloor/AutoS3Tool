@@ -27,9 +27,9 @@ pip install boto3==1.24.68
 ├─FilesStation  #文件工作站
 │      CsvFiles  #处理scv文件
 │      ExcelFiles  #处理excel文件
-│      S3Files  #处理S3文件
+│      S3Files  #处理S3文件,bucket_name需自行配置
 │ 
-│─Config.ini  #S3配置信息
+│─Config.ini  #S3配置信息,S3网址、密钥和桶名称需自行配置
 │
 ├─DemandScript #定制需求-复杂操作
 │

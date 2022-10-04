@@ -25,7 +25,7 @@ class S3Helper(object):
         self.access_key = S3_FILE_CONF.get("ocr.lls.aws.s3.access-key")
         self.secret_key = S3_FILE_CONF.get("ocr.lls.aws.s3.secret-key")
         self.region_name = S3_FILE_CONF.get("ocr.lls.aws.s3.end-point")
-        # self.bucket_name = S3_FILE_CONF.get("BUCKET_NAME")
+        self.bucket_name = S3_FILE_CONF.get("BUCKET_NAME")
         self.url = S3_FILE_CONF.get("ENDPOINT_URL")
 
         # 连接s3

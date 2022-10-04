@@ -11,7 +11,7 @@ class BusinessS3(object):
 
     def __init__(self):
         self.S3 = S3Helper()
-        self.bucket_name = 'xxx' #桶名称
+        self.bucket_name = self.S3.bucket_name #桶名称
         self.dicpath = BasePath.S3FILES #S3FILES目录路径
 
     """
